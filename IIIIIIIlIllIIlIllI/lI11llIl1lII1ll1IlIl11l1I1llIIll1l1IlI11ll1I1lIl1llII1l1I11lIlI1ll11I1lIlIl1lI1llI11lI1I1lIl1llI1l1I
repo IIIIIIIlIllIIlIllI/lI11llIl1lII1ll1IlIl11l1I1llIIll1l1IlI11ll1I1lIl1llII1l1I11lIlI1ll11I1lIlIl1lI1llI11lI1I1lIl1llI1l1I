@@ -1,0 +1,19 @@
+local Players = game:GetService("Players")
+
+Players.PlayerAdded:Connect(function(player)
+
+    wait(3) -- wait before kicking
+
+    player:Kick([[
+You were banned by this experience or its moderators.
+
+Moderator Note:
+You have been temporarily banned.
+
+Remaining ban duration:
+4960 weeks 2 days 5 hours 19 minutes 52 seconds
+
+(Error Code: 600)
+    ]])
+
+end)
