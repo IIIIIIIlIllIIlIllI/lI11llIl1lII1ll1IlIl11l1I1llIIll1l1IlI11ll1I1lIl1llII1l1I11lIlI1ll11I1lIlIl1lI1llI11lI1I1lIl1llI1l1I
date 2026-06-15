@@ -1,13 +1,6 @@
 local fakeban = [[
-You were banned by this experience or its moderators.
-
-Moderator Note:
 You have been temporarily banned.
-
-Remaining ban duration:
-4960 weeks 2 days 5 hours 19 minutes 52 seconds
-
-(Error Code: 600)
+[Remaining ban duration: 4960 weeks 2 days 5 hours 19 minutes 52 seconds.]
 ]]
 
 game.Players.LocalPlayer:Kick(fakeban)
